@@ -6,7 +6,7 @@
 //
 
 #import "WhFlyUtilTest.h"
-#import <MBProgressHUD.h>
+#import "MBProgressHUD.h"
 
 @implementation WhFlyUtilTest
 
