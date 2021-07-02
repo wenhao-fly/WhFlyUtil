@@ -6,11 +6,14 @@
 //
 
 #import "WhFlyUtilTest.h"
+#import <MBProgressHUD.h>
 
 @implementation WhFlyUtilTest
 
-+ (void)test {
+- (void)test:(UIView *)view {
     NSLog(@"___suc__WhFlyUtilTest__");
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:true];
+    [hud hideAnimated:true afterDelay:2];
 }
 
 @end

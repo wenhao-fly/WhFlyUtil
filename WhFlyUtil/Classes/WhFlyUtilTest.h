@@ -6,12 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WhFlyUtilTest : NSObject
 
-+ (void)test;
+- (void)test:(UIView *)view;
 
 @end
 
