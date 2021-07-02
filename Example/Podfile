@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'WhFlyUtil_Example' do
   pod 'WhFlyUtil', :path => '../'
+  pod 'MBProgressHUD'
 
   target 'WhFlyUtil_Tests' do
     inherit! :search_paths

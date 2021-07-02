@@ -1,0 +1,23 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - WhFlyUtil (0.0.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - WhFlyUtil (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  WhFlyUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  WhFlyUtil: bacb08fc0de701dd71f71cb7ccc5c6944571f08e
+
+PODFILE CHECKSUM: 4285a7bf5b4c9ad9599e39f2b83ed20c1352b347
+
+COCOAPODS: 1.10.1
