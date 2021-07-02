@@ -1,6 +1,7 @@
 PODS:
   - MBProgressHUD (1.2.0)
-  - WhFlyUtil (0.0.1)
+  - WhFlyUtil (0.0.2):
+    - MBProgressHUD
 
 DEPENDENCIES:
   - MBProgressHUD
@@ -16,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  WhFlyUtil: bacb08fc0de701dd71f71cb7ccc5c6944571f08e
+  WhFlyUtil: 486e4daeb98bf7cafa841d2953bba0a006896c0e
 
 PODFILE CHECKSUM: 4285a7bf5b4c9ad9599e39f2b83ed20c1352b347
 

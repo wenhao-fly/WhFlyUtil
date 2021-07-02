@@ -5,12 +5,12 @@
 //  Created by zlgj on 2021/7/1.
 //
 
-#import "WhFlyTest.h"
+#import "WhFlyUtilTest.h"
 
-@implementation WhFlyTest
+@implementation WhFlyUtilTest
 
 + (void)test {
-    NSLog(@"___suc____");
+    NSLog(@"___suc__WhFlyUtilTest__");
 }
 
 @end

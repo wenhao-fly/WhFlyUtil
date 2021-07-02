@@ -7,27 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168C09E14EE13444EAA18778BA601279 /* WhFlyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB47739847B4646EAC44DDDE948D178F /* WhFlyTest.m */; };
-		1A685DC8734954DD35CC072303F6D14E /* WhFlyUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2504C8E87CEA7102645A8FB364CF8AA /* WhFlyUtil-dummy.m */; };
-		3C9CCC29DCEABAA6502A9B2720D94332 /* WhFlyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6CA8F6EF01A5F2090D75992EA5FB37 /* WhFlyTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		448786812CDA7A7AB804760EC88D362F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		6A4C81B114E73B1A402F4EC928507F6C /* WhFlyUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B468E171B7FA126CCAAC7A9F7A4972E /* WhFlyUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0637996E4F0EBE65F0F23EDA715FA59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */; };
+		48CC01ED206A61215EAB7D79CDCA7F20 /* WhFlyUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9615F3F73A12C581860723D6709B967D /* WhFlyUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62ADB9BA13D03E929476D68342DE3915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE6882A7422335FA74AA823182D3B85 /* UIKit.framework */; };
+		6A489D6C528954C74A81FF252D4D7062 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */; };
+		6B00E5D8958A7A7E2F1473E249FF65D7 /* WhFlyUtilTest.h in Headers */ = {isa = PBXBuildFile; fileRef = F47C30E40D5E2F6A6DB1099B69B21A08 /* WhFlyUtilTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
-		806727FF7EF5CBFAAE755E6F2253E37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		719BCB8B70014C3203D8585894A47FB0 /* WhFlyUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A0DF00AC33EB490CE1770444F7915F /* WhFlyUtil-dummy.m */; };
+		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D853886A00EB90270A5EF814BD6345 /* CoreGraphics.framework */; };
+		806727FF7EF5CBFAAE755E6F2253E37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		826E93A3B82A9F13696EB5021CCECD13 /* Pods-WhFlyUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8D1F59D758B7985B45E1D89E7E87A7 /* Pods-WhFlyUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C4FC83AC21AC05F3E9B4D248DDE6F82 /* Pods-WhFlyUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FAE6B25CAB977088BD8C18B3F80F8 /* Pods-WhFlyUtil_Tests-dummy.m */; };
-		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */; };
 		BCFB4F838892177B3E059DAE8A7C1832 /* Pods-WhFlyUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E227042DA5DB2A93EB2AAE503F8A89AF /* Pods-WhFlyUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2B53AF9EE4F573FDFF6BCC985FF99DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		BE95569E6A40ED12BDE2767F0B26BD17 /* WhFlyUtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E5BFF33788F68E35C6C196D6AEAE8 /* WhFlyUtilTest.m */; };
+		D2B53AF9EE4F573FDFF6BCC985FF99DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */; };
 		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
 		E2A7357D032EC64EC6B39D1FFD077A72 /* Pods-WhFlyUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C57EE9638EE80763DFFBA5F95AEC3 /* Pods-WhFlyUtil_Example-dummy.m */; };
 		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
+		F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1F3DF14054494FA172299FFA9984C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4EF41AAFBD3872F99AE1FF83CE68EE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7227BFC2DE54921ACE06E1E2B4DF08;
+			remoteInfo = "Pods-WhFlyUtil_Example";
+		};
 		5793C472E52FCC115295DF127094ABE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -35,12 +44,12 @@
 			remoteGlobalIDString = 3B43260C95AD580A890AEB66A28FAF88;
 			remoteInfo = WhFlyUtil;
 		};
-		C3817A3675F8318E793D3945F92E9D68 /* PBXContainerItemProxy */ = {
+		7A07F309BA6007D3863433988E07C852 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB7227BFC2DE54921ACE06E1E2B4DF08;
-			remoteInfo = "Pods-WhFlyUtil_Example";
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
 		};
 		F4AD4263652FD6484E40DA2BF4F8C625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,47 +62,49 @@
 
 /* Begin PBXFileReference section */
 		04267F2137C4F5EC0DB4812730CED1F0 /* Pods-WhFlyUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhFlyUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		047ED215C6B4B39C2CA2E1D4AA287CB1 /* WhFlyUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WhFlyUtil-Info.plist"; sourceTree = "<group>"; };
+		07A0DF00AC33EB490CE1770444F7915F /* WhFlyUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WhFlyUtil-dummy.m"; sourceTree = "<group>"; };
 		0B462B470129D94A1DD6DFC9F2A7F07F /* Pods-WhFlyUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhFlyUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F3E5BFF33788F68E35C6C196D6AEAE8 /* WhFlyUtilTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhFlyUtilTest.m; path = WhFlyUtil/Classes/WhFlyUtilTest.m; sourceTree = "<group>"; };
 		19287FAEE52355C799E554C9E37BD17A /* Pods-WhFlyUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhFlyUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2226ACA1E9BF4436822C5D545CD89188 /* WhFlyUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WhFlyUtil.modulemap; sourceTree = "<group>"; };
 		2CFD666D75B59292D077719C4B192E74 /* Pods_WhFlyUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhFlyUtil_Tests.framework; path = "Pods-WhFlyUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355849CEE530D40CF2D39CD9FA86BAAD /* WhFlyUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WhFlyUtil.modulemap; sourceTree = "<group>"; };
 		3ED2AD61A5124BCE57110CBCB8D95E07 /* WhFlyUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WhFlyUtil.framework; path = WhFlyUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4229974A93664B6E147F6C4DD8998B5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4B866B806B298BA8E3500FCA39942DF3 /* WhFlyUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhFlyUtil.debug.xcconfig; sourceTree = "<group>"; };
+		486F63DE98F32CDC77D4EDAA4BEB829B /* WhFlyUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WhFlyUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		4F00D30C14E208EA765FD9308F34E4F7 /* Pods-WhFlyUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhFlyUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		5B6CA8F6EF01A5F2090D75992EA5FB37 /* WhFlyTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhFlyTest.h; path = WhFlyUtil/Classes/WhFlyTest.h; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5EC88CDCBA3E1A0872161823F11FA4DE /* Pods-WhFlyUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhFlyUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		73A7E3C6B5FCD8F08E22447FB54E959E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78D853886A00EB90270A5EF814BD6345 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7EE6882A7422335FA74AA823182D3B85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		839FAE6B25CAB977088BD8C18B3F80F8 /* Pods-WhFlyUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhFlyUtil_Tests-dummy.m"; sourceTree = "<group>"; };
 		8964EADBD8C0447CA0D4FF9A4D28745D /* Pods-WhFlyUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhFlyUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89812074795ED21CE7C3907F79FD8D97 /* Pods-WhFlyUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhFlyUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B468E171B7FA126CCAAC7A9F7A4972E /* WhFlyUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhFlyUtil-umbrella.h"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AFC2D99626AD0FD430CAA33B1E5C29 /* Pods-WhFlyUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhFlyUtil_Example-Info.plist"; sourceTree = "<group>"; };
 		92EA0A98AC3029890105C3ACE39AF36E /* Pods-WhFlyUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhFlyUtil_Tests-Info.plist"; sourceTree = "<group>"; };
+		9615F3F73A12C581860723D6709B967D /* WhFlyUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhFlyUtil-umbrella.h"; sourceTree = "<group>"; };
 		9BAE409569D0A541F079A8AA2E23D47B /* Pods-WhFlyUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhFlyUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2F805ED8B5AEA09F9F05F2C6A03911 /* WhFlyUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhFlyUtil.release.xcconfig; sourceTree = "<group>"; };
+		A5FC8F199BA143CBF4905E1D8A4EB9EC /* WhFlyUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhFlyUtil.release.xcconfig; sourceTree = "<group>"; };
+		AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B17DF65B18269F0420AE387426112460 /* Pods-WhFlyUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhFlyUtil_Tests.modulemap"; sourceTree = "<group>"; };
-		BF277C15B405EC074934D26BA3EA8ACF /* WhFlyUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WhFlyUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB47739847B4646EAC44DDDE948D178F /* WhFlyTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhFlyTest.m; path = WhFlyUtil/Classes/WhFlyTest.m; sourceTree = "<group>"; };
+		B186C8DD03E02CCDCA724EC5CD15E9FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C2C2F0A6734485C5F5E198C8A54D775A /* WhFlyUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhFlyUtil-prefix.pch"; sourceTree = "<group>"; };
 		CB8D1F59D758B7985B45E1D89E7E87A7 /* Pods-WhFlyUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhFlyUtil_Example-umbrella.h"; sourceTree = "<group>"; };
-		DDB6D8FEF712A584E2A823B2DF11ABCC /* WhFlyUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WhFlyUtil-Info.plist"; sourceTree = "<group>"; };
+		D442D11A07BC44393EEAD79A31B173F5 /* WhFlyUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhFlyUtil.debug.xcconfig; sourceTree = "<group>"; };
+		E02C835882D42D4C27E62E7A0C525E64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E1487D2527244A3106026F478F207EF1 /* Pods-WhFlyUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhFlyUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E227042DA5DB2A93EB2AAE503F8A89AF /* Pods-WhFlyUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhFlyUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E2504C8E87CEA7102645A8FB364CF8AA /* WhFlyUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WhFlyUtil-dummy.m"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		F2E5C38B2DF783564F48821F5CEBC545 /* WhFlyUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhFlyUtil-prefix.pch"; sourceTree = "<group>"; };
+		F1D1F3DF14054494FA172299FFA9984C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F47C30E40D5E2F6A6DB1099B69B21A08 /* WhFlyUtilTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhFlyUtilTest.h; path = WhFlyUtil/Classes/WhFlyUtilTest.h; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FCD156B4A947306C6E039A673EC99890 /* Pods-WhFlyUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhFlyUtil_Example.modulemap"; sourceTree = "<group>"; };
 		FF7C57EE9638EE80763DFFBA5F95AEC3 /* Pods-WhFlyUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhFlyUtil_Example-dummy.m"; sourceTree = "<group>"; };
@@ -111,11 +122,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7897EEF007E63074936B5196775EF75 /* Frameworks */ = {
+		9052728DB87882A6A291DB4009E1F26B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				448786812CDA7A7AB804760EC88D362F /* Foundation.framework in Frameworks */,
+				0637996E4F0EBE65F0F23EDA715FA59C /* Foundation.framework in Frameworks */,
+				6A489D6C528954C74A81FF252D4D7062 /* MBProgressHUD.framework in Frameworks */,
+				62ADB9BA13D03E929476D68342DE3915 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		3E8CF9D22078C3DD12CA3AB66728CA24 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4D6691D8CB3D493006A8661C7CFED31A /* iOS */,
+				78D853886A00EB90270A5EF814BD6345 /* CoreGraphics.framework */,
+				AFF1B6278B61857EB510FEBDAD427765 /* Foundation.framework */,
+				F1D1F3DF14054494FA172299FFA9984C /* QuartzCore.framework */,
+				7EE6882A7422335FA74AA823182D3B85 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -171,14 +187,29 @@
 			path = "Target Support Files/Pods-WhFlyUtil_Example";
 			sourceTree = "<group>";
 		};
-		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
+		4B691211CE297C5DCC9D459C1F6B9A75 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */,
-				CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */,
-				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
+				355849CEE530D40CF2D39CD9FA86BAAD /* WhFlyUtil.modulemap */,
+				07A0DF00AC33EB490CE1770444F7915F /* WhFlyUtil-dummy.m */,
+				047ED215C6B4B39C2CA2E1D4AA287CB1 /* WhFlyUtil-Info.plist */,
+				C2C2F0A6734485C5F5E198C8A54D775A /* WhFlyUtil-prefix.pch */,
+				9615F3F73A12C581860723D6709B967D /* WhFlyUtil-umbrella.h */,
+				D442D11A07BC44393EEAD79A31B173F5 /* WhFlyUtil.debug.xcconfig */,
+				A5FC8F199BA143CBF4905E1D8A4EB9EC /* WhFlyUtil.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WhFlyUtil";
+			sourceTree = "<group>";
+		};
+		5CF35EB563D2EBCAED1926ADE9766FDC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B186C8DD03E02CCDCA724EC5CD15E9FE /* LICENSE */,
+				E02C835882D42D4C27E62E7A0C525E64 /* README.md */,
+				486F63DE98F32CDC77D4EDAA4BEB829B /* WhFlyUtil.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		62B6B9B22C8736D84482C8FFCC2A12AC /* Pods-WhFlyUtil_Tests */ = {
@@ -200,34 +231,18 @@
 		6F0BD9CE67398044D81BBE34B9763089 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF39924B7A09D289BAA9E9F71013DA68 /* WhFlyUtil */,
+				D827F7A6463B16DB12A97042B154710C /* WhFlyUtil */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		701136AF38F0FEB8A6BA3F635657076E /* Support Files */ = {
+		792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2226ACA1E9BF4436822C5D545CD89188 /* WhFlyUtil.modulemap */,
-				E2504C8E87CEA7102645A8FB364CF8AA /* WhFlyUtil-dummy.m */,
-				DDB6D8FEF712A584E2A823B2DF11ABCC /* WhFlyUtil-Info.plist */,
-				F2E5C38B2DF783564F48821F5CEBC545 /* WhFlyUtil-prefix.pch */,
-				8B468E171B7FA126CCAAC7A9F7A4972E /* WhFlyUtil-umbrella.h */,
-				4B866B806B298BA8E3500FCA39942DF3 /* WhFlyUtil.debug.xcconfig */,
-				9F2F805ED8B5AEA09F9F05F2C6A03911 /* WhFlyUtil.release.xcconfig */,
+				8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */,
+				3E8CF9D22078C3DD12CA3AB66728CA24 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WhFlyUtil";
-			sourceTree = "<group>";
-		};
-		7503784F0F3F0940F49BEB7DC08CC044 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4229974A93664B6E147F6C4DD8998B5F /* LICENSE */,
-				73A7E3C6B5FCD8F08E22447FB54E959E /* README.md */,
-				BF277C15B405EC074934D26BA3EA8ACF /* WhFlyUtil.podspec */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -261,7 +276,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6F0BD9CE67398044D81BBE34B9763089 /* Development Pods */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
 				EF05F2118E1EA35E8035388EB86342EC /* Products */,
 				CF585C46EDFE6A7C3BAFE9DD86C389EC /* Targets Support Files */,
@@ -277,13 +292,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DF39924B7A09D289BAA9E9F71013DA68 /* WhFlyUtil */ = {
+		D827F7A6463B16DB12A97042B154710C /* WhFlyUtil */ = {
 			isa = PBXGroup;
 			children = (
-				5B6CA8F6EF01A5F2090D75992EA5FB37 /* WhFlyTest.h */,
-				CB47739847B4646EAC44DDDE948D178F /* WhFlyTest.m */,
-				7503784F0F3F0940F49BEB7DC08CC044 /* Pod */,
-				701136AF38F0FEB8A6BA3F635657076E /* Support Files */,
+				F47C30E40D5E2F6A6DB1099B69B21A08 /* WhFlyUtilTest.h */,
+				0F3E5BFF33788F68E35C6C196D6AEAE8 /* WhFlyUtilTest.m */,
+				5CF35EB563D2EBCAED1926ADE9766FDC /* Pod */,
+				4B691211CE297C5DCC9D459C1F6B9A75 /* Support Files */,
 			);
 			name = WhFlyUtil;
 			path = ../..;
@@ -303,20 +318,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20819D96A5D5A675CD119F17FAEF8CE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C9CCC29DCEABAA6502A9B2720D94332 /* WhFlyTest.h in Headers */,
-				6A4C81B114E73B1A402F4EC928507F6C /* WhFlyUtil-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5674AE4BCB1AD31017C1EA48BFAB2687 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BCFB4F838892177B3E059DAE8A7C1832 /* Pods-WhFlyUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE2F043804C4B47EAAC40EBAA02C379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CC01ED206A61215EAB7D79CDCA7F20 /* WhFlyUtil-umbrella.h in Headers */,
+				6B00E5D8958A7A7E2F1473E249FF65D7 /* WhFlyUtilTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,16 +357,17 @@
 /* Begin PBXNativeTarget section */
 		3B43260C95AD580A890AEB66A28FAF88 /* WhFlyUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FD9AE0804676A528B3B3C9CC797415D /* Build configuration list for PBXNativeTarget "WhFlyUtil" */;
+			buildConfigurationList = A133EF897BAC05EE1FA4A143DAC74790 /* Build configuration list for PBXNativeTarget "WhFlyUtil" */;
 			buildPhases = (
-				20819D96A5D5A675CD119F17FAEF8CE9 /* Headers */,
-				7787299BF8FF8CEB8A99E506331479DC /* Sources */,
-				B7897EEF007E63074936B5196775EF75 /* Frameworks */,
-				49B739531091B5F107BE2759B7526A2D /* Resources */,
+				6FE2F043804C4B47EAAC40EBAA02C379 /* Headers */,
+				CA6B1A0712876699BEA04BE1F0FBBECD /* Sources */,
+				9052728DB87882A6A291DB4009E1F26B /* Frameworks */,
+				F1576326ACA45CC24105186FBF5EB617 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ED310B0135F0AC984A38C62DEDD4A56F /* PBXTargetDependency */,
 			);
 			name = WhFlyUtil;
 			productName = WhFlyUtil;
@@ -388,7 +404,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				734564003EF25E8B93127B585F2DAED1 /* PBXTargetDependency */,
+				3BDF02874B996AEEFC8F4E44F1C42590 /* PBXTargetDependency */,
 			);
 			name = "Pods-WhFlyUtil_Tests";
 			productName = "Pods-WhFlyUtil_Tests";
@@ -467,7 +483,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49B739531091B5F107BE2759B7526A2D /* Resources */ = {
+		F1576326ACA45CC24105186FBF5EB617 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,12 +509,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7787299BF8FF8CEB8A99E506331479DC /* Sources */ = {
+		CA6B1A0712876699BEA04BE1F0FBBECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168C09E14EE13444EAA18778BA601279 /* WhFlyTest.m in Sources */,
-				1A685DC8734954DD35CC072303F6D14E /* WhFlyUtil-dummy.m in Sources */,
+				719BCB8B70014C3203D8585894A47FB0 /* WhFlyUtil-dummy.m in Sources */,
+				BE95569E6A40ED12BDE2767F0B26BD17 /* WhFlyUtilTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,11 +536,17 @@
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
 			targetProxy = F4AD4263652FD6484E40DA2BF4F8C625 /* PBXContainerItemProxy */;
 		};
-		734564003EF25E8B93127B585F2DAED1 /* PBXTargetDependency */ = {
+		3BDF02874B996AEEFC8F4E44F1C42590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WhFlyUtil_Example";
 			target = EB7227BFC2DE54921ACE06E1E2B4DF08 /* Pods-WhFlyUtil_Example */;
-			targetProxy = C3817A3675F8318E793D3945F92E9D68 /* PBXContainerItemProxy */;
+			targetProxy = 4EF41AAFBD3872F99AE1FF83CE68EE07 /* PBXContainerItemProxy */;
+		};
+		ED310B0135F0AC984A38C62DEDD4A56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 7A07F309BA6007D3863433988E07C852 /* PBXContainerItemProxy */;
 		};
 		EE3D384DCD503ED4233E582D2B4AE39E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -634,9 +656,9 @@
 			};
 			name = Debug;
 		};
-		2CBD6240B8ACFA1C0C938BA06912147E /* Debug */ = {
+		47987D875A212A11BDB0A58EA3438849 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B866B806B298BA8E3500FCA39942DF3 /* WhFlyUtil.debug.xcconfig */;
+			baseConfigurationReference = D442D11A07BC44393EEAD79A31B173F5 /* WhFlyUtil.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -663,6 +685,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		51FD93C096720E51434D747BAA625F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FC8F199BA143CBF4905E1D8A4EB9EC /* WhFlyUtil.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WhFlyUtil/WhFlyUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WhFlyUtil/WhFlyUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WhFlyUtil/WhFlyUtil.modulemap";
+				PRODUCT_MODULE_NAME = WhFlyUtil;
+				PRODUCT_NAME = WhFlyUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8930FAD85C8F5224AE14CFAEC9E0874E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -819,37 +872,6 @@
 			};
 			name = Release;
 		};
-		CE635DBF6423702FB76E16B8BD596974 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2F805ED8B5AEA09F9F05F2C6A03911 /* WhFlyUtil.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WhFlyUtil/WhFlyUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WhFlyUtil/WhFlyUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WhFlyUtil/WhFlyUtil.modulemap";
-				PRODUCT_MODULE_NAME = WhFlyUtil;
-				PRODUCT_NAME = WhFlyUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CE88BEB409E50A0DAA45B1728B96D781 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8964EADBD8C0447CA0D4FF9A4D28745D /* Pods-WhFlyUtil_Example.release.xcconfig */;
@@ -954,11 +976,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FD9AE0804676A528B3B3C9CC797415D /* Build configuration list for PBXNativeTarget "WhFlyUtil" */ = {
+		A133EF897BAC05EE1FA4A143DAC74790 /* Build configuration list for PBXNativeTarget "WhFlyUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CBD6240B8ACFA1C0C938BA06912147E /* Debug */,
-				CE635DBF6423702FB76E16B8BD596974 /* Release */,
+				47987D875A212A11BDB0A58EA3438849 /* Debug */,
+				51FD93C096720E51434D747BAA625F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

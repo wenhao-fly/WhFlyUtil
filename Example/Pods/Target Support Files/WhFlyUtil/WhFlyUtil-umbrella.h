@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "WhFlyTest.h"
+#import "WhFlyUtilTest.h"
 
 FOUNDATION_EXPORT double WhFlyUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char WhFlyUtilVersionString[];
